@@ -1,4 +1,5 @@
 # git2dart
+
 ![Pub Version](https://img.shields.io/pub/v/git2dart)
 ![Pub Monthly Downloads](https://img.shields.io/pub/dm/git2dart)
 ![Pub Likes](https://img.shields.io/pub/likes/git2dart)
@@ -9,7 +10,9 @@ git2dart package provides ability to use [libgit2](https://github.com/libgit2/li
 
 This is a hardfork of [libgit2dart](https://github.com/SkinnyMind/libgit2dart)
 
-Currently supported platforms are 64-bit Windows, Linux and macOS on both Flutter and Dart VM.
+Currently supported platforms are 64-bit Windows, Linux, macOS, and Android (arm64-v8a) on both Flutter and Dart VM.
+
+**Note**: Android requires additional SSL setup - see [Android Setup Guide](doc/android.md).
 
 ## Usage
 
@@ -25,7 +28,7 @@ See the [doc directory](doc/README.md) for full documentation and usage examples
 
 Fork git2dart, improve git2dart, send a pull request.
 
- ## System Dependencies
+## System Dependencies
 
 To use git2dart, you need to have the following system dependencies installed:
 
@@ -97,6 +100,5 @@ dart pub global activate coverage
 ## Licence
 
 MIT. See [LICENSE](LICENSE) file for more information.
-
 
 [![Star History Chart](https://api.star-history.com/svg?repos=DartGit-dev/git2dart&type=Date)](https://www.star-history.com/#DartGit-dev/git2dart&Date)

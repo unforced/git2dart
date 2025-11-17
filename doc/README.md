@@ -1,5 +1,11 @@
 # git2dart Documentation
+
+## Platform Setup
+
+- [Android Setup](android.md) - Required SSL configuration for Android
+
 ## Usage Guide
+
 - [Repository](types/repository.md)
 - [Git Objects](types/git_objects.md)
 - [Commit](types/commit.md)
@@ -50,4 +56,3 @@ To fix these errors create symlinks:
 sudo ln -s /usr/lib64/libpcre.so /usr/lib64/libpcre.so.3
 sudo ln -s /usr/lib64/libpcreposix.so /usr/lib64/libpcreposix.so.3
 ```
-
