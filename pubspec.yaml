@@ -13,7 +13,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  git2dart_binaries: ^1.9.16
+  git2dart_binaries:
+    git:
+      url: https://github.com/unforced/git2dart_binaries.git
+      ref: android-openssl-support
   meta: ^1.8.0
   path: ^1.8.1
 
@@ -22,6 +25,7 @@ dev_dependencies:
   test: ^1.26.2
 
 platforms:
+  android:
   linux:
   macos:
   windows:
